@@ -1,0 +1,247 @@
+body{
+	line-height: 1.5;
+	font-family: sans-serif;
+	background-color: #464345;
+  text-align: center;
+}
+*{
+	box-sizing: 
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.container{
+	max-width: 1400px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.align-items-center{
+	align-items: center;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+/*header*/
+.header{
+	background-color: var(--color-1);
+	padding:12px 0;
+	position: relative;
+}
+.header .logo;
+.header .nav{
+	padding:0 15px;
+}
+.header .logo a{
+	font-size: 30px;
+	color: #f733d6;
+	text-transform: capitalize;
+}
+.header .nav ul li{
+	display: inline-block;
+	margin-left: 40px;
+}
+.header .nav ul li a{
+	display: block;
+	font-size: 16px;
+	padding:10px 0;
+	color: rgb(15, 14, 14);
+	text-transform: capitalize;
+	transition: all 0.5s ease;
+}
+.header .nav ul li a:hover,
+.header .nav ul li a.active{
+	color: #e610b7;
+}
+/*SHOWCASE*/
+#showcase {
+    background:url(../IMG/copy.JPG);
+    background-position: left center;
+    background-size: cover ;
+    height:70vh;
+    
+}
+
+    
+.showcase-content{
+
+       display: flex;
+       flex-direction:row ;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       position: absolute;
+       top: 150px;
+       left:0 ;
+        right: 0;
+        bottom:0 ;
+       
+       background: rgba(211, 211, 211, 0.4);
+       color:#131212;
+       
+   }
+   .showcase-content h1{ 
+       font: size 4rem;
+       margin: bottom 2rem; }
+
+       .btn {
+        background-color: #e9e5e5;
+        border: 1px solid#141314;
+        color: rgb(161, 148, 157);
+        padding: 16px 32px;
+        text-align:center;
+        font-size: 16px;
+        margin: 2px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+      }
+      
+      .btn {
+        background-color: #e932b2;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align:end;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 1;
+        transition: 0.3s;
+      }
+      
+      .btn:hover {opacity: 0.6}
+      /* about*/
+   #Apout{
+    background-color: rgb(233, 203, 213);
+    text-align: center;
+    margin: 0;  
+}
+/* project*/
+project{ 
+    display:flex;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    font-family: Verdana;
+    
+    
+  }
+  project .img{
+      text-align: center center;
+background-position: center left;
+
+
+  }
+  #project .p{
+      text-align: center;
+
+  }
+  #project .h{
+      text-align:center;
+  }
+  /* skills*/
+* skill{box-sizing: border-box}
+
+.container skill {
+  width: 100%;
+  background-color: rgb(36, 34, 34);
+}
+
+.skills {
+
+  text-align:right;
+  padding-top: 1px;
+  padding-bottom: 0;
+  color: rgb(19, 17, 17);
+}
+
+.html {width: 90%; background-color: #f541d7;
+}
+.css {width: 80%; background-color: #d8a9d6;}
+.js {width: 10%; background-color: #a66ca8;}
+.php {width: 5%; background-color: #fcd8f1;}
+/*testimoniols*/
+.container {
+    border: 1px solid rgb(240, 231, 239);
+    background-color: rgba(219, 207, 219, 0.644);
+    border-radius: 40px;
+    padding: 16px;
+    margin: 16px 0
+    
+  }
+  
+  .container::after {
+    content: "";
+
+    clear: both;
+    display:table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 5px;
+    border-radius: 30%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+   /* contact*/
+   input[type=text], select {
+    width: 150px;
+    padding: 10px 10px;
+    margin: 0px 0;
+    display:inline-block;
+    border: 0px solid rgb(212, 208, 208);
+    border: radius 0;
+    box-sizing:border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #d8aed8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #c5c0c0;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #e4c3e7;
+    padding: 15px;
+  }
+/* footer*/
+    
+  footer {
+    background: #3f3c3f;
+    padding: 2.5rem;
+
+}
+footer {
+    text-align:center;
+    width: 1400px;
+}
+footer a .fab {
+    color: rgb(235, 68, 199);
+    width: 11%;
+     
+}
+footer ul li {
+    display: inline;
+
+}

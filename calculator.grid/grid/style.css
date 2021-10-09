@@ -1,0 +1,9 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 1fr 1fr;
+    grid-gap: 0;
+}
+.div{
+    background-color: blueviolet;
+}

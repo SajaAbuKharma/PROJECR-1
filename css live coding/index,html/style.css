@@ -1,0 +1,19 @@
+@IMPORT
+
+BODY{
+    COLOR: #000;
+    background-color: ;
+    PADDING:
+
+}
+
+background: rgb(154,214,231);
+background: linear-gradient(90deg, rgba(154,214,231,1) 56%, rgba(148,217,233,0.7912115529805672) 100%);
+
+
+H1{  font-size: medium;}
+#rectangle{
+    width:200px;
+    height:100px;
+    background:rgb(156, 156, 201);
+}
